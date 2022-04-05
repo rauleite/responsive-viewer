@@ -1,10 +1,5 @@
 import { UserAgent } from '../types'
 
-// enum macDevice {
-//   iPhone = 'iPhone',
-//   iPad = 'iPad',
-// }
-
 let random = (items: string[]) => {
   let item = items[Math.floor(Math.random() * items.length)]
   console.log('item', item)
